@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,
+           initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>project</title>
+
+    <!-- Fonts
+    ================================================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontstyle.css">
+
+    <!-- Fontawesome CDN
+    ================================================== -->
+    <script src="https://use.fontawesome.com/276dfaa890.js"></script>
+
+    <!-- Bootstrap
+    ================================================== -->
+    <link rel="stylesheet" href="libs/assets/bootstrap.min.css">
+
+    <!-- Owl-carousel
+    ================================================== -->
+    <link rel="stylesheet" href="libs/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- CSS
+        ================================================== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <!-- **Header section** -->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+                    <a class="navbar-brand col-lg-2 col-md-2 col-sm-2" href="#"><img src="img/images/logo_Oxit.png" tittle="Oxygen fot Information Technologies logotype" alt="Logotype of our IT school" width="82px" height="82px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-lg-10 col-md-12 col-sm-12" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#conacts">Головна</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#web_development_slider">Програма курсу</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#feedback_slider">Відгуки про курс</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#content_with_video">Відео</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#owl-mentors">Ментори</a>
+                            </li>
+                            <li class="nav-item button">
+                                <a class="nav-link btn-leave-message" href="#">Подати заявку</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- **end of header section** -->
+
+        <!-- **Conacts section** -->
+        <section id="conacts" class="pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 about_us">
+                        <div class="about_us_wrapper">
+                            <h1>Курси програмування у Луцьку</h1>
+                            <p>Сфера ІТ розвивається максимально швидко. Зараз дуже популярно здобувати освіту, що пов'язано з ІТ. Існує лише одна проблема - брак дійсно кваліфікованих спеціалістів в Україні. Під час навчання в університеті ми отримуємо мало практики і "живих", реальних кейсів. ІТ школа ОхІТ створила таку методику навчання, при якій за короткий час ви отримаєте необхідні знання. Щоб стати ІТ спеціалістом. Чекаємо вас на наших курсах з програмування в Луцьку.Старт наступного курсу 3 серпня.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 form_contant">
+                        <h3>Зареєструватися на курси</h3>
+                        <form action="#">
+                            <label for="name">Ім'я <span>*</span></label>
+                            <input class="name" type="text" id="name" name="name" placeholder="Iм'я" required>
+
+                            <label for="suname">Прізвище<span>*</span></label>
+                            <input class="suname" type="text" id="suname" name="suname" placeholder="Прізвище" required>
+
+                            <label for="interested_in">Мене більше цікавить<span>*</span></label>
+                            <input class="interested_in" type="text" id="interested_in" name="interested_in" placeholder="developer or QA" required>
+
+                            <label for="phone">Номер телефону<span>*</span></label>
+                            <input class="phone" type="number" id="phone" name="phone" placeholder="Номер телефону: +380 ХХХ ХХ ХХ ХХ" required>
+
+                            <label for="email">Email<span>*</span></label>
+                            <input class="email" type="email" id="email" name="email" placeholder="Email" required>
+
+                            <input class="agree" type="checkbox" id="agree" name="agree" required>
+                            <label class="check_label" for="agree">Я погоджуюся із <span class="blue_text"><a href="#">Політикою конфіденційності</a></span><span>*</span></label>
+
+                            <a href="#"><input id="submit" type="button" value="Зареєструватися зараз"></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of conacts section** -->
+
+        <!-- **Slider_web_development section** -->
+        <section id="web_development_slider" class="slider">
+            <div class="container">
+              <h3>Курс "Розробка сайтів"</h3>
+                <div id="owl-slider" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="img/icons/course-icon-1.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на WordPress<hr></h4>
+
+                        <p>Курс складається з коротких навчальних відео, на яких ти пізнаєш основи , навчишся створювати сайти різної                                    складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових br завдань.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-2.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на br Drupal 8<hr></h4>
+                        <p>Для створення чудових сайтів на Drupal 8, цеглинка за цеглинкою, ти пізнаєш секрети основних та додаткових Drupal-модулів(Views, Rules, Panels, Devel, Paragraph, та багатьох
+                            <br>інших).</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-3.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Ознайомлення з тестуванням<hr></h4>
+
+                        <p>Ти дізнаєш про забезпечення якості в контексті різних моделей розробки ПЗ. Також QA-спеціаліст розкаже про види тестування (функціональне, регресивне, системне, тестування швидкодії тощо).</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-1.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на WordPress<hr></h4>
+
+                        <p>Курс складається з коротких навчальних відео, на яких ти пізнаєш основи , навчишся створювати сайти різної                                    складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових br завдань.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-2.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на br Drupal 8<hr></h4>
+                        <p>Для створення чудових сайтів на Drupal 8, цеглинка за цеглинкою, ти пізнаєш секрети основних та додаткових Drupal-модулів(Views, Rules, Panels, Devel, Paragraph, та багатьох
+                            <br>інших).</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-3.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Ознайомлення з тестуванням<hr></h4>
+
+                        <p>Ти дізнаєш про забезпечення якості в контексті різних моделей розробки ПЗ. Також QA-спеціаліст розкаже про види тестування (функціональне, регресивне, системне, тестування швидкодії тощо).</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-1.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на WordPress<hr></h4>
+
+                        <p>Курс складається з коротких навчальних відео, на яких ти пізнаєш основи , навчишся створювати сайти різної                                    складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових br завдань.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-2.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Розробка сайтів на br Drupal 8<hr></h4>
+                        <p>Для створення чудових сайтів на Drupal 8, цеглинка за цеглинкою, ти пізнаєш секрети основних та додаткових Drupal-модулів(Views, Rules, Panels, Devel, Paragraph, та багатьох
+                            <br>інших).</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/icons/course-icon-3.png" alt="Web development on wordpress image" title="Web development on wordpress image" width="85px" height="85px">
+                        <h4>Ознайомлення з тестуванням<hr></h4>
+
+                        <p>Ти дізнаєш про забезпечення якості в контексті різних моделей розробки ПЗ. Також QA-спеціаліст розкаже про види тестування (функціональне, регресивне, системне, тестування швидкодії тощо).</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of slider_web_development section** -->
+
+        <!-- some info about us -->
+        <section id="some_info" class="pb-5 pt-5 counters basic-waypoint">
+            <div class="container">
+                <div class="row stat_inside" >
+                    <div class="col-sm-6 col-md-3 little_statistics block_show">
+                        <img src="img/icons/statistic-icon-1.png" title="Courses organized icon"
+                             alt="An icon with a courses" width="100px" height="85px">
+                        <div id="0101" class="numbers value" akhi="25" >0</div>
+                        <p>курсів організовано</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 little_statistics">
+                        <img src="img/icons/statistic-icon-2.png" title="Hours of classes"
+                             alt="An icon with a hourse of studing classes" width="100px" height="85px">
+                        <div id="0102" class="numbers value" akhi="836">0</div>
+                        <p>годин занять проведено</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 little_statistics">
+                        <img src="img/icons/statistic-icon-3.png" title="Students are trained"
+                             alt="An icon of students that are finished their studing" width="100px" height="85px">
+                        <div id="0103" class="numbers value" akhi="500">0</div>
+                        <p>студентів навчено</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 little_statistics">
+                        <img src="img/icons/statistic-icon-4.png" title="Graduates are employed"
+                             alt="An icon with employed graduates" width="100px" height="85px">
+                        <div class="numbers value" akhi="120">0</div>
+                        <p>випускників курсів працевлаштовано</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of some info about us** -->
+
+        <!-- **Feedback section** -->
+        <section id="feedback_slider" class="slider pb-3 pt-5">
+            <div class="container">
+                <h3>Що кажуть студенти наших курсів:</h3>
+                <div id="owl-feedback" class="owl-carousel owl-theme animate__animated">
+                    <div class="item animate__animated animate__fadeIn">
+                        <p><i class="fas fa-quote-left top-left"></i>Під час проходження курсів Drupal у школі ОхІТ я навчився створювати не досить складні сайти та знайшов справу, якою хочу займатись. Після успішного завершення курсів мені надали можливість продовжити навчання вже в якості Intern Site Builder. Зараз я можу сказати, що Drupal та ОхІТ повністю змінили моє життя.<i class="fas fa-quote-right bot-right"></i></p>
+                        <h5>Коля</h5>
+                        <p class="italics">Drupal-девелопер</p>
+                    </div>
+                    <div class="item animate__animated animate__fadeIn">
+                        <p><i class="fas fa-quote-left top-left"></i>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть.<i class="fas fa-quote-right bot-right"></i></p>
+                        <h5>Lorem</h5>
+                        <p class="italics">Ammet-девелопер</p>
+                    </div>
+                    <div class="item animate__animated animate__fadeIn">
+                        <p><i class="fas fa-quote-left top-left"></i>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть.<i class="fas fa-quote-right bot-right"></i></p>
+                        <h5>Ipsum</h5>
+                        <p class="italics">Orci-девелопер</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of feedback section** -->
+
+        <!-- **Content_with_video section** -->
+        <section id="content_with_video" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h3>Відео</h3>
+                    <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою"                      аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки                      успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона                               популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів  Letraset, які містили уривки з Lorem                        Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували                        різні версії Lorem Ipsum.
+                    </p>
+                    <div class="video"><iframe width="100%" height="550" src="https://www.youtube.com/embed/JLHvS0qR5Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of content_with_video section** -->
+
+        <!-- **Our_mentors_with_slider section** -->
+        <section id="our_mentors_with_slider" class="pb-5 pt-5 slider">
+            <div class="container">
+                <h3>Наші ментори</h3>
+                <div id="owl-mentors" class="owl-carousel owl-theme animate__animated">
+                    <div class="item animate__animated animate__fadeIn row">
+                        <div class="left-part col-lg-5 col-md-6 col-sm-12">
+                            <img src="img/images/viktor.png" alt="Image with one of our mentors" title="Image with a founder of our company" width="337px" height="356px">
+                        </div>
+                        <div class="right-part col-lg-7 col-md-6 col-sm-12">
+                            <h4>Віктор<hr></h4>
+
+                            <p>Майбутнім управлінцям неабияк пощастило - адже з ними ділитеметься досвідом управлінець із величезним досвідом! Сам засновник і СЕО компанії InternetDevels, Віктор Левандовський, висловиви бажання бути викладачем на курсах проект менеджменту.</p>
+
+                            <p>Віктору є про що розповісти. Він знає все про створення та керування великими компаніями, ефективну комунікацію, успішні проекти і багато іншого. При цьому він ніколи не скаже, що знає все - саморозвиток для нього не закінчується жодної хвилини.</p>
+
+                          <p>На книжкових полицях Віктора - сотні прочитаних книг із управління і не тільки. А от заповітні мрії не стоять на полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки недавно він передавав привіт з Ельбрусу - найвищої точки Європи.</p>
+
+                          <p> Буде нестримна, мов гірська лавина, енергія помножена на мудрість і досвід. І ви таке пропустите? Записуйтесь уже зараз!</p>
+                        </div>
+                    </div>
+                    <div class="item animate__animated animate__fadeIn row">
+                        <div class="left-part col-lg-5 col-md-6 col-sm-12">
+                            <img src="img/images/mark.png" alt="Image of our mentor" title="Another image with our mentor" width="337px" height="356px">
+                        </div>
+                        <div class="right-part col-lg-7 col-md-6 col-sm-12">
+                            <h4>Марк<hr></h4>
+                            <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.
+                                <br> "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.
+                                <br> Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів  Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
+                                <br>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item animate__animated animate__fadeIn row">
+                        <div class="left-part col-lg-5 col-md-6 col-sm-12">
+                            <img src="img/images/vova.png" alt="Image with our mentor" title="More image with our mentor" width="337px" height="356px">
+                        </div>
+                        <div class="right-part col-lg-7 col-md-6 col-sm-12">
+                            <h4>Вова<hr></h4>
+                            <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.
+                                <br> "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.
+                                <br> Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів  Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
+                                <br>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- **end of Our_mentors_with_slider section** -->
+
+        <!-- **Google maps section** -->
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10105.191030641512!2d25.3178081!3d50.7144149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeba249b67a64b0a9!2sInternetDevels!5e0!3m2!1suk!2sua!4v1616688697592!5m2!1suk!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <!-- **end of Google maps section** -->
+
+        <!-- **Footer section** -->
+        <footer>
+            <div class="contact_info pb-3 pt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="contacts col-xs-6 col-sm-6 col-md-3">
+                            <a href="tel:+380673321755">
+                            <i class="fas fa-phone"></i>
+                            <h5>Телефон</h5>
+                            <p>+38 067 332 17 55</p>
+                            </a>
+                        </div>
+                        <div class="contacts col-xs-6 col-sm-6 col-md-3">
+                            <a href="mailto:office@it.volyn.ua">
+                            <i class="fas fa-envelope"></i>
+                            <h5>E-mail</h5>
+                            <p>office@it.volyn.ua</p>
+                            </a>
+                        </div>
+                        <div class="contacts col-xs-6 col-sm-6 col-md-3">
+                            <a href="https://www.google.com/maps/place/InternetDevels/@50.7144183,25.3156194,17z/data=!3m1!4b1!4m5!3m4!1s0x4725997e35f529e9:0xeba249b67a64b0a9!8m2!3d50.7144149!4d25.3178081" target="_blank">
+                            <i class="fas fa-map-marker"></i>
+                            <h5>Адреса</h5>
+                            <p>вул. Боженка 34г, Луцьк</p>
+                            </a>
+                        </div>
+                        <div class="contacts col-xs-6 col-sm-6 col-md-3">
+                            <a href="https://www.facebook.com/oxitschool" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <h5>Facebook</h5>
+                            <p>facebook.com/oxitschool</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright pb-5 pt-5">
+                <div class="blue">&copy;Copyright 2018-2020 Internet Devels</div>
+                <div><a href="https://internetdevels.ua/" target="_blank">Умови політики конфіденційності</a></div>
+            </div>
+        </footer>
+        <!-- **end of footer section** -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then bootstrap.js, then owl-carousel, and in the end custom JS -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <!-- Fontawesome cdn -->
+        <script src="https://use.fontawesome.com/276dfaa890.js"></script>
+        <!-- Bootstrap minified -->
+        <script src="libs/bootstrap.min.js"></script>
+        <!-- owl-carousel -->
+        <script src="libs/owl.carousel.js"></script>
+        <script src="libs/owl.carousel.min.js"></script>
+
+
+
+        <!-- custom js -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
